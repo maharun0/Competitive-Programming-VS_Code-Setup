@@ -9,7 +9,7 @@ Requirements:
 3. In settins.json add this shell script in code-runner.executorMap
 
     ```
-    // [Remove Setup]
+    // [Remote Setup]
 
     "cpp": "if (-not (Test-Path './io')) { New-Item -Type Directory './io' } ; if (-not (Test-Path './io/input.txt')) { New-Item -Type File './io/input.txt' } ; if (-not (Test-Path './io/output.txt')) { New-Item -Type File './io/output.txt' } ; cd $dir && g++ -std=c++17 \"-Wl,--stack=268435456\" '$fileName' -o '$fileNameWithoutExt' && Get-Content './io/input.txt' | & $dir$fileNameWithoutExt.exe | Set-Content './io/output.txt' && del '$dir$fileNameWithoutExt.exe' && exit",
     ```

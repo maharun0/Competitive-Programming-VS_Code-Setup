@@ -1,4 +1,4 @@
-CP Setup
+## CP Setup
 
 Requirements:
 
@@ -22,4 +22,13 @@ If you run a '.cpp' file it will create (if not already created)
    - output.txt
  - random.cpp
 
-Input and Output will be redirected from and to these files.
+**Input and Output will be redirected from and to these files.**
+
+
+
+Credit: [Nadman Khan](https://github.com/NadmanKhan) wrote the shell script to redirect input and output.
+I just added shell for creating input.txt and output.txt file for convinience.
+
+---
+Final look:
+![VS Code Setup - Final look](./VS%20Code%20Setup%20-%20Final%20look.png)

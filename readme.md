@@ -28,6 +28,7 @@ If you run a '.cpp' file it will create (if not already created)
 
 Credit: [Nadman Khan](https://github.com/NadmanKhan) wrote the shell script to redirect input and output.
 I just added shell for creating input.txt and output.txt file for convinience.
+Stack size part is added by [Mahir Shahriar](https://github.com/mahirshahriar1)
 
 ---
 Final look:

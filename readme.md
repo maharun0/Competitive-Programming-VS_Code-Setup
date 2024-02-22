@@ -2,11 +2,21 @@
 
 Requirements:
 
-1. Make sure compiler path is set up properly.
+1. Make sure compiler path is set up properly.<br>
+   or in `settings.json` add these lines: (optional)
+   ```
+   // [C++]
+    "cmake.configureOnOpen": false,
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-arm64",
+    "C_Cpp.default.includePath": [
+        "C:/ProgramData/mingw64/mingw64/bin"
+    ],
+   ```
 
-2. Install 'Code Runner' extension.
+3. Install 'Code Runner' extension.
 
-3. In settins.json add this shell script in code-runner.executorMap
+4. In settins.json add this shell script in code-runner.executorMap
 
     ```
     // [Remote Setup]
